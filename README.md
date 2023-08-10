@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+<h1 align="center" id="title">Zekpto</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center"><img src="https://socialify.git.ci/Dextroxe/zekpto/image?description=1&amp;font=Raleway&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-Currently, two official plugins are available:
+<p id="description">A modern site to Swap and Buy Zekpto</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>🚀 Demo</h2>
 
-## Expanding the ESLint configuration
+[https://64d50774f66bc406f4dc45ea--fabulous-sunburst-a4725f.netlify.app/](https://64d50774f66bc406f4dc45ea--fabulous-sunburst-a4725f.netlify.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h2>Project Screenshots:</h2>
 
-- Configure the top-level `parserOptions` property like this:
+<img src="https://i.imgur.com/gUBgD6W.png" alt="project-screenshot" width="700" height="100/">
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. install git bash and run</p>
+
+```
+git clone https://github.com/Dextroxe/zekpto.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>2. change directory</p>
+
+```
+cd zekpto
+```
+
+<p>3. install packages</p>
+
+```
+npm install
+```
+
+<p>4. finally run react using</p>
+
+```
+npm run dev
+```
