@@ -68,7 +68,7 @@ const Hiro = () => {
                 </div>
                 <div className="flex flex-col justify-center  items-center gap-5">
                     <div className="flex flex-row justify-center items-center gap-">
-                        <p className="text-white font-medium ">Einpunk Token Contract Address :</p>
+                        <p className="text-white font-medium invisible md:visible">Einpunk Token Contract Address :</p>
                         <CopyToClipboard text={`${data}`}>
                             <div onClick={() => handleToast(Themes.LIGHT)} className="border-1 select-all bg-slate-800 p-2 rounded-md mx-2 flex justify-center items-center gap-2 text-white hover:text-sky-500 cursor-pointer">
                                 <p className="">{data}</p>

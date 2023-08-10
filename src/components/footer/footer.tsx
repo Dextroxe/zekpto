@@ -11,7 +11,7 @@ const Footer = () => {
                             <p className={text}>Trademark Policy</p>
                             <p className={text}>Copyright © 2023 Zakpto Labs Inc.</p>
                            <Link to={'https://github.com/Dextroxe'}>
-                           <p className={`${text} cursor-pointer`}>GitHub</p>
+                           <p className={`${text} cursor-pointer text-blue-700`}>GitHub</p>
                            </Link>
                             
                         </div>
