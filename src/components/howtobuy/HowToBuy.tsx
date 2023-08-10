@@ -1,8 +1,6 @@
 
 import ReactFlow, {
-    MiniMap,
     Controls,
-    // Background,
     useNodesState,
     useEdgesState,
 } from 'reactflow';
@@ -165,7 +163,7 @@ const HowToBuy = () => {
                         connectionLineStyle={connectionLineStyle}
 
                     >
-                        {/* <MiniMap /> */}
+                      
                         <Controls className='bg-white' />
                    
                     </ReactFlow>
