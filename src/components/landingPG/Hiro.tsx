@@ -49,13 +49,13 @@ const Hiro = () => {
     return (
         <>
             <div ref={body} className="flex justify-center items-center flex-col select-none">
-                <div className="flex flex-row justify-between ">
+                <div className="flex flex-row justify-between py-20">
                     <div className="flex flex-1 justify-center items-start flex-col gap-8">
                         <h1 className="text-white text-left text-5xl">The World's Fastest Growing <br /> <span ref={word} className="text-[#269afe]">Zekpto Token</span> Protocol</h1>
                         <div ref={leftHiro}>
                             <p className="text-white text-left"><span className="text-[#269afe]">Zekpto Token</span> is a best decentralized application platform designed to make apps usable on the web.</p>
                             <p className="text-white text-left">The network runs on a Proof-of-Stake (POS) consensus mechanism called Nightsade, which aims to offer scalability and stable fees.</p>
-                            <p className="text-white text-left" ><span className="text-[#269afe]">ZekptoUSD</span> is the native utility token that is used for:<br />
+                            <p className="text-white text-left leading-loose" ><span className="text-[#269afe]">ZekptoUSD</span> is the native utility token that is used for:<br />
                                 Fees for processing transaction and storing data <br />
                                 Running validator nodes on the network via staking <span className="text-[#269afe]">Zekpto token</span><br />
                                 Used for governance votes to determine how network resources are allocated
@@ -63,7 +63,7 @@ const Hiro = () => {
                         </div>
                     </div>
                     <div ref={rightHiro} className=" flex-1 justify-center items-center hidden md:flex">
-                        <ImgPrint src="MusashixGuts.jpeg" width="70%" height="70%" />
+                        <ImgPrint src="hiro.png" width="100%" height="100%" />
                     </div>
                 </div>
                 <div className="flex flex-col justify-center  items-center gap-5">

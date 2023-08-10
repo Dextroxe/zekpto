@@ -32,11 +32,11 @@ const About = () => {
     }, []); // <- empty dependency Array so it doesn't re-run on every render
     return (
         <>
-            <div className="flex-col gap-4  flex justify-center items-center mt-16">
+            <div className="flex-col gap-4  flex  items-center mt-16">
                 <div>
                     <h1 className="text-white text-5xl"><span className="text-[#269afe]">Zek</span>pto Token Features</h1>
                 </div>
-                <div ref={cards} className=" items-stretch flex flex-row  gap-10  select-none mt-10" >
+                <div ref={cards} className=" flex flex-col md:flex-row justify-around items-stretch gap-10 mt-20" >
                     <CardPrint src="pg1.png" imgHeight="100%" imgWidth="100%"
               
                         img={true}
@@ -45,6 +45,7 @@ const About = () => {
                         animateBox={true}
                         animateContent={true}
                         boxWidth="64"
+                        boxHeight="full"
                     />
                     <CardPrint src="pg2.png" imgHeight="100%" imgWidth="100%"
            
@@ -54,6 +55,8 @@ const About = () => {
                         animateBox={true}
                         animateContent={true}
                         boxWidth="64"
+                        boxHeight="full"
+                        
                     />
                     <CardPrint src="pg3.png" imgHeight="100%" imgWidth="100%"
               
@@ -63,6 +66,7 @@ const About = () => {
                         animateBox={true}
                         animateContent={true}
                         boxWidth="64"
+                        boxHeight="full"
 
                     />
                     <CardPrint src="pg4.png" imgHeight="100%" imgWidth="100%"
@@ -73,6 +77,8 @@ const About = () => {
                         animateBox={true}
                         animateContent={true}
                         boxWidth="64"
+                        boxHeight="full"
+
                     />
                 </div>
                 <RoadMap />

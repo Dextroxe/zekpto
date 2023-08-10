@@ -12,7 +12,7 @@ const Navbar = () => {
     return ( 
         <>
         <div className="flex  flex-row justify-between text-white justify-items-center  border-b-4 border-zinc-950 shadow-2xl pb-4">
-            <h1 className="flex justify-center cursor-pointer items-center"><Link to={`/`}>Logo</Link></h1>
+            <h1 className="flex justify-center cursor-pointer items-center w-10 h-10"><Link to={`/`}><img src="/logo.png" alt="logo"/></Link></h1>
             <div className="flex flew-row gap-2">
             <p  className={element} ><Link to={`/`}>Home</Link></p>
             {items_.map((ele) => {
