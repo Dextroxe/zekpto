@@ -10,7 +10,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://i.imgur.com/gUBgD6W.png" alt="project-screenshot" width="700" height="600/">
+<img src="https://i.imgur.com/gUBgD6W.png" alt="project-screenshot" width="700" height="400/">
 
 <h2>🛠️ Installation Steps:</h2>
 
